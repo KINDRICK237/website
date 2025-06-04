@@ -10,16 +10,111 @@ body{
 
 nav{
    display: flex;
-   background-color: brown;
    justify-content: space-between;
 }
 
 nav img{
     height: 3%;
     width: 3%;
+    align-self: center;
+}
+
+.nav-menu{
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
 }
 
 a{
     text-decoration: none;
-    color: rgb(75, 70, 70);
+    margin: 0% 2% 0% 2%;
+}
+
+.logo{
+    font-size: 16px;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+span{
+    color: rgb(230, 5, 192);
+}
+
+.home-section{
+    display: flex;
+    height: 575px;
+
+}
+
+.right{
+    flex: 50%;
+    align-content: center;
+}
+
+.left{
+   
+    flex: 50%;
+}
+
+.right div{
+    width: 50%;
+    height: 50%;
+    float: right;
+    border: 30px rgb(233, 218, 218) solid;
+    padding: 8%;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.salutation{
+    
+    font-size: 16px;
+    color: rgb(104, 96, 96);
+    margin-top: 24%;
+}
+
+.primary-text{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 100%;
+    color: rgb(52, 51, 51);
+    
+}
+
+.second-text{
+    font-size: 16px;
+    color: gray;
+
+}
+
+.primary-button{
+    background-color: rgb(52, 51, 51);
+    color: white;
+    padding: 2% 4% 2% 4%;
+    border-radius: 10px;
+}
+
+  .second-button{
+    background-color: rgb(236, 221, 221);
+    color:gray;
+    border: none;
+    border-bottom: 1px 4px 8px grey;
+    padding: 2% 4% 2% 4%;
+    border-radius: 10px;
+    margin-left: 2%;
+
+
 }
